@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faixa Etária</title>
+</head>
+<body>
+<div>
+    <h2>Preencha seus dados para saber sua faixa etária.</h2>
+    <form action="02.php" method="ghet">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome aqui" id="nome" required><br/>
+        <br/>
+        <label for="ano_nascimento">Ano de Nascimento:</label>
+        <input type="number" name="ano_nascimento" placeholder="4 dígitos" id="ano_nascimento" min="1904" max="2024" required><br/>
+        <br/>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
